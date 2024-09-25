@@ -1,8 +1,8 @@
 @import 'utilities.css';
 :root{
     --primary:#3DCFD3;
-    --dark:#161616;
-    --pure:#FFFFFF;
+    --dark:#ffffff;
+    --pure:#000000;
     --ternary:#898989;
     --light:#F2F2F2;
     --secondary:#070606;
@@ -77,6 +77,7 @@ header nav .branding{
 }
 .hero{
     padding:3rem 0;
+    margin-top: 80px;
 }
 .hero .left img{
     width:400px;
@@ -213,6 +214,8 @@ section.services .card-wrapper .card h2{
     font-weight: 400;
     font-size: 1.2rem;
     margin-bottom:0.5rem;
+    color:var(--ternary);
+
 }
 section.services .card-wrapper .card p{
     font-family: 'Lato', sans-serif;
@@ -229,7 +232,7 @@ section.services .card-wrapper .card:hover h2, section.services .card-wrapper .c
 
 section.freelancer{
     text-align: center;
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/camera.png);
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/camera.jpeg);
     color:var(--pure);
     clip-path:polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 100%);
     padding-bottom:14rem;
@@ -237,67 +240,13 @@ section.freelancer{
 section.freelancer h1{
     font-size:3rem;
     margin-bottom:0.5rem;
+    color:var(--ternary);
 }
 section.freelancer p{
     font-size:1.3rem;
     margin-bottom: 2rem;
     font-family:'Lato', sans-serif;
-}
-
-section.reviews .slider .slide img{
-    width:100px;
-    height:100px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    object-fit:cover;
-    margin-bottom:2rem;
-}
-section.reviews .slider .slide{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding:0 10rem;
-
-}
-section.reviews .slider .slide p{
-    font-family: 'Lato', sans-serif;
-    color:var(--ternary);
-    margin-bottom: 1rem;
-}
-section.reviews .slider .slide span{
-    font-size: 0.8rem;
-}
-section.reviews .slider-dots .dots{
-    list-style-type:none;
-    display:flex!important;
-    justify-content: center;
-}
-section.reviews .slider-dots{
-    margin-top:3rem;
-}
-
-section.reviews .slider-dots button{
-    font-size:0;
-    width:8px;
-    height:5px;
-    margin-right:0.3rem;
-    border: none;
-    outline:none;
-    background:var(--ternary);
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    cursor: pointer;
-}
-section.reviews .dots li.slick-active button{
-    background:var(--primary);
-    width:20px;
+    color: aliceblue;
 }
 
 section.work{
